@@ -139,10 +139,10 @@ TARGET_RIL_VARIANT := caf
 PROTOBUF_SUPPORTED := true
 
 # SELinux
-include device/qcom/sepolicy/sepolicy.mk
+#include device/qcom/sepolicy/sepolicy.mk
 
-BOARD_SEPOLICY_DIRS += \
-    $(VENDOR_PATH)/sepolicy
+#BOARD_SEPOLICY_DIRS += \
+#    $(VENDOR_PATH)/sepolicy
 
 # Time services
 BOARD_USES_QC_TIME_SERVICES := true
