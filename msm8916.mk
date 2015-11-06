@@ -133,14 +133,16 @@ PRODUCT_PACKAGES += \
     libOmxVdec \
     libOmxVenc \
     libstagefrighthw \
-    qcmediaplayer
+    qcmediaplayer \
+    tcmiface
 
 ifneq ($(QCPATH),)
 PRODUCT_PACKAGES += libOmxVdecHevc
 endif
 
 PRODUCT_BOOT_JARS += \
-    qcmediaplayer
+    qcmediaplayer \
+    tcmiface
 
 # Power HAL
 PRODUCT_PACKAGES += \
